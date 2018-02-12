@@ -37,7 +37,7 @@ framework: {
 | `reveal-offset` | Number | (Default: 250) Scrolling distance in pixels that triggers the hide. |
 
 ### Reveal Property
-You'll notice in playing with the QLayout view configuration that if you set the header to "hhh" (all small letters), the header will be set to a static position at the top of the page. This in turn means, the header will move off the screen as the user scrolls down the page. If the user then needs to use the navigation in the header, he/she must scroll completely up to top of the page to get to it and this is bad UX.
+You'll notice in playing with the QLayout view configuration that if you set the header to "hhh" (all lowercase letters), the header will be set to a static position at the top of the page. This in turn means, the header will move off the screen as the user scrolls down the page. If the user then needs to use the navigation in the header, he/she must scroll completely up to top of the page to get to it and this is bad UX.
 
 One way to help the user is to add a [back-to-top button](/components/back-to-top.html) on the page.
 
