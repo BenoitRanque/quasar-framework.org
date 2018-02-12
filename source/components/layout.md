@@ -101,7 +101,7 @@ Below is another example of a Layout, which contains some useful elements:
     </q-toolbar>
 
     <!-- Second row of header is a QTabs -->
-    <q-tabs slot="navigation">
+    <q-tabs>
       <q-route-tab slot="title" icon="view_quilt" to="/test-layout/about" replace hide="icon" label="About" />
       <q-route-tab slot="title" icon="view_day" to="/test-layout/toolbar" replace hide="icon" label="Toolbar" />
       <q-route-tab slot="title" icon="view_day" to="/test-layout/tabs" replace label="Tabs" />
@@ -153,7 +153,7 @@ Below is another example of a Layout, which contains some useful elements:
 
 You can also use [QScrollArea](/components/scroll-area.html) for the left or right sides of the layout, if you want to control the scrollbar (but it's not mandatory):
 ```html
-<!-- notice style tag -->
+<!-- notice "fit" class on q-scroll-area tag -->
 <q-layout-drawer side="left">
   <q-scroll-area class="fit">
     <q-item to="/test-layout/toolbar">Toolbar</q-item>
